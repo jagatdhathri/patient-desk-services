@@ -10,7 +10,7 @@ public class Patient implements Serializable {
 
 	private String firstName;
 
-	private String lastname;
+	private String lastName;
 
 	private String email;
 
@@ -32,12 +32,12 @@ public class Patient implements Serializable {
 		this.firstName = firstName;
 	}
 
-	public String getLastname() {
-		return lastname;
+	public String getLastName() {
+		return lastName;
 	}
 
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 	public String getEmail() {
