@@ -51,7 +51,7 @@ public class PatientResource {
 		com.jd.pd.entity.Patient patientEntity = new com.jd.pd.entity.Patient();
 		patientEntity.setPatientId(patientModel.getPatientId());
 		patientEntity.setFirstName(patientModel.getFirstName());
-		patientEntity.setLastname(patientModel.getLastName());
+		patientEntity.setLastName(patientModel.getLastName());
 		patientEntity.setAge(patientModel.getAge());
 		patientEntity.setEmail(patientModel.getEmail());
 		return patientEntity;
@@ -61,7 +61,7 @@ public class PatientResource {
 		Patient patientModel = new Patient();
 		patientModel.setPatientId(patientEntity.getPatientId());
 		patientModel.setFirstName(patientEntity.getFirstName());
-		patientModel.setLastname(patientEntity.getLastname());
+		patientModel.setLastName(patientEntity.getLastName());
 		patientModel.setAge(patientEntity.getAge());
 		patientModel.setEmail(patientEntity.getEmail());
 		return patientModel;
