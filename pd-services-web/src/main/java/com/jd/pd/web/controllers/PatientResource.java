@@ -51,7 +51,7 @@ public class PatientResource {
 		com.jd.pd.entity.Patient patientEntity = new com.jd.pd.entity.Patient();
 		patientEntity.setPatientId(patientModel.getPatientId());
 		patientEntity.setFirstName(patientModel.getFirstName());
-		patientEntity.setLastname(patientModel.getLastname());
+		patientEntity.setLastname(patientModel.getLastName());
 		patientEntity.setAge(patientModel.getAge());
 		patientEntity.setEmail(patientModel.getEmail());
 		return patientEntity;
